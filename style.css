@@ -1,5 +1,17 @@
 
 
+:root {
+    --color-p: #fbf9f9c6;
+    --color-btn: #F5167E;
+    --color-scan: #242565;
+    --color-scan2: #1D275F;
+    --color-scan3: #3D37F1;
+    --color-scan4: #EEE1FF;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 /* style login */
 
 .login1 {
@@ -46,7 +58,7 @@ input {
     color: white;
     font-weight: bold;
     border-radius: 7px;
-
+    
 }
 
 #twitter {
@@ -81,4 +93,22 @@ form p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.popup{
+    display: inline-block;
+    padding: 4px 100px;
+    box-shadow: 0 2px 3px black;
+    position: relative;
+    text-align: center;
+   left: 50%;
+   transform:translate(-50%);
+   border: 0;
+   background:green ;
+   color: white;
+   top: -100px;
+}
+.popup div{
+    position: absolute;
+    right: 10px;
 }

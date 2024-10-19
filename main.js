@@ -4,7 +4,7 @@ function poupup() {
     let input = document.querySelector("#email").value;
     const valid =/\w+@\w+\.\w+/g;
  if(input[0]=== " "){
-    alert("input  empty")
+    alert("input is not valide (space before)")
  }else if(valid.test(input)) {
         alert(" email valid")
     } else{
