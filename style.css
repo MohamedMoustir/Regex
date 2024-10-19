@@ -1,0 +1,84 @@
+
+
+/* style login */
+
+.login1 {
+    text-align: center;
+    color: black;
+    box-shadow: 0 3px 4px #bdbcbc;
+    width: 30%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 100px;
+    padding: 30px;
+}
+.text-btn1{
+  
+  position: absolute;
+  top:40% ;
+
+   
+}
+
+.login1 h1 {
+    border-bottom: 4px solid var(--color-btn);
+    width: 24px;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    margin: 10px 0;
+    border: 0;
+    outline: 0;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.322);
+    padding: 0 10px;
+}
+
+#email::placeholder,
+#password::placeholder {
+    position: absolute;
+}
+
+#continue {
+    background: var(--color-btn);
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+
+}
+
+#twitter {
+    background-color: #378EF1;
+    color: white;
+    border-radius: 7px;
+}
+
+#facebook {
+    background: #0835FC;
+    color: white;
+    border-radius: 7px;
+
+}
+
+.twitter,
+.facebook {
+    position: absolute;
+    left: 26%;
+    color: white;
+    margin-top: 22px;
+}
+
+form p {
+    color: #6c6969;
+}
+
+#continer4 {
+    margin: 0 auto;
+    height: 100vh;
+    background: url(../img/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
