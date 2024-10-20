@@ -97,16 +97,17 @@ form p {
 
 .popup{
     display: inline-block;
-    padding: 4px 100px;
+    padding: 20px 100px;
     box-shadow: 0 2px 3px black;
-    position: relative;
+   position: relative;
     text-align: center;
    left: 50%;
    transform:translate(-50%);
    border: 0;
    background:green ;
    color: white;
-   top: -100px;
+top: -1000px;
+transition:  0.8s;   
 }
 .popup div{
     position: absolute;
